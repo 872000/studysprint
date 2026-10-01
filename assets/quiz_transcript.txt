@@ -1,0 +1,38 @@
+
+[fill] Mitosis is the process of cell division that produces two _____ identical daughter cells. (fill in the blank)
+Your answer: genetically
+✅ Correct!
+📝 The key term is 'genetically'. Sentence: Mitosis is the process of cell division that produces two genetically identical daughter cells.
+
+[truefalse] True or False: Mitosis is not the process of cell division that produces two genetically identical daughter cells.
+(answer: true / false)
+Your answer: banana republic
+❌ Not quite. The answer is: false
+💡 Hint: Look for the altered fact.
+📝 False — the original sentence is: Mitosis is the process of cell division that produces two genetically identical daughter cells.
+
+[fill] The large intestine absorbs water and forms solid waste from _____ food. (fill in the blank)
+Your answer: undigested
+✅ Correct!
+📝 The key term is 'undigested'. Sentence: The large intestine absorbs water and forms solid waste from undigested food.
+
+[truefalse] True or False: The large intestine absorbs water and forms solid waste from undigested food.
+(answer: true / false)
+Your answer: banana republic
+❌ Not quite. The answer is: true
+💡 Hint: Consider the key term of the sentence.
+📝 True — the sentence is correct as written: The large intestine absorbs water and forms solid waste from undigested food.
+
+[fill] The printing press, invented by _____ around 1440, spread ideas and literacy across Europe. (fill in the blank)
+Your answer: gutenberg
+✅ Correct!
+📝 The key term is 'gutenberg'. Sentence: The printing press, invented by Gutenberg around 1440, spread ideas and literacy across Europe.
+
+[truefalse] True or False: The printing press, invented by Gutenberg around 1440, spread ideas and literacy across Europe.
+(answer: true / false)
+Your answer: banana republic
+❌ Not quite. The answer is: true
+💡 Hint: Consider the key term of the sentence.
+📝 True — the sentence is correct as written: The printing press, invented by Gutenberg around 1440, spread ideas and literacy across Europe.
+
+🏁 Score: 3/6 (50%)
