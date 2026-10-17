@@ -18,6 +18,7 @@ _URL_RE = re.compile(r"https?://\S+")
 
 
 def clean_line(line: str) -> str:
+    """Strip markdown syntax from one line, keeping its plain text."""
     line = line.strip()
     if line.startswith(_CODE_FENCE):
         return ""
@@ -75,6 +76,7 @@ def load_notes(path: str) -> list[str]:
 
 
 def load_directory(path: str) -> list[str]:
+    """Load every .md/.txt file in a directory and return clean sentences."""
     sentences: list[str] = []
     for name in sorted(os.listdir(path)):
         if name.lower().endswith((".md", ".txt")):
