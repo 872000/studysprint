@@ -1,7 +1,7 @@
 # StudySprint ⚡📝
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Tests](https://img.shields.io/badge/tests-27%20passing-brightgreen)
+![Tests](https://img.shields.io/badge/tests-28%20passing-brightgreen)
 ![Offline](https://img.shields.io/badge/offline-no%20APIs-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 

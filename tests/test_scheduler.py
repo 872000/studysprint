@@ -58,3 +58,16 @@ def test_stats_accuracy(sched):
     assert st["cards"] == 1
     assert st["total_answers"] == 2
     assert st["accuracy"] == pytest.approx(50.0)
+
+
+def test_third_correct_grows_interval_by_easiness(sched):
+    card = add_one(sched)
+    sched.record_answer(card.id, True)  # interval 1.0
+    sched._conn.execute("UPDATE cards SET due_ts=? WHERE id=?",
+                        (time.time() - 1, card.id))
+    sched.record_answer(card.id, True)  # interval 6.0
+    sched._conn.execute("UPDATE cards SET due_ts=? WHERE id=?",
+                        (time.time() - 1, card.id))
+    c3 = sched.record_answer(card.id, True)
+    assert c3.interval == pytest.approx(15.0)  # 6.0 * 2.5 easiness, capped at 30d
+    assert c3.repetitions == 3
